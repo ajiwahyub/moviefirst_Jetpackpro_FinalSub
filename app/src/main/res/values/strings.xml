@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Moviefirst</string>
+
+    <string name="title">Title</string>
+    <string name="genre">Genre</string>
+    <string name="userscore">User Score</string>
+    <string name="releasedate">Release date</string>
+    <string name="overview">Overview</string>
+    <string name="tabmovie">Movies</string>
+    <string name="tabtvshos">TV Shows</string>
+    <string name="welcome">Favorite Page</string>
+    <string name="list_movie">List Movie</string>
+    <string name="list_tv">List TV Show</string>
+    <string name="favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vaforite_title">You favorited %s</string>
+    <string name="unvaforite_title">You unfavorited %s</string>
+    <string name="empty_favmovie">Your favorite list is empty, add some  TVshow or movie that you loved</string>
+
+</resources>

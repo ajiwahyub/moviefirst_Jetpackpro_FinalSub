@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_movie">
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="com.ajijetpackpro.finalsub.ui.home.movie.MovieFragment"
+        android:label="movie_fragment"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="com.ajijetpackpro.finalsub.ui.home.tvshow.TvshowFragment"
+        android:label="tvshow_fragment"
+        tools:layout="@layout/fragment_tvshow" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.ajijetpackpro.finalsub.ui.home.favorite.FavoriteFragment"
+        android:label="favorite_fragment"
+        tools:layout="@layout/fragment_favorite" />
+
+
+</navigation>
